@@ -2,7 +2,7 @@ package org.altbeacon.beacon.service;
 
 import android.content.Context;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconManager;

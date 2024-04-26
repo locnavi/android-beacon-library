@@ -2,7 +2,7 @@ package org.altbeacon.beacon.utils;
 
 import android.app.ActivityManager;
 import android.content.Context;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import java.util.List;
 

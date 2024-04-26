@@ -10,7 +10,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.os.PowerManager;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import org.altbeacon.beacon.BeaconManager;
 import org.altbeacon.beacon.logging.LogManager;

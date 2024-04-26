@@ -10,7 +10,7 @@ import android.content.pm.PackageItemInfo
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Handler
-import androidx.annotation.RequiresApi
+import android.support.annotation.RequiresApi
 import org.altbeacon.beacon.Beacon
 import org.altbeacon.beacon.BeaconManager
 import org.altbeacon.beacon.Region

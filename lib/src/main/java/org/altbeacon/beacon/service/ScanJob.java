@@ -13,7 +13,7 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.SystemClock;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconManager;

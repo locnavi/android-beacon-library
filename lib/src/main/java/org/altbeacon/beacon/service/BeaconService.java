@@ -40,9 +40,9 @@ import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
 import android.os.Messenger;
-import androidx.annotation.MainThread;
-import androidx.annotation.RestrictTo;
-import androidx.annotation.RestrictTo.Scope;
+import android.support.annotation.MainThread;
+import android.support.annotation.RestrictTo;
+import android.support.annotation.RestrictTo.Scope;
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconLocalBroadcastProcessor;
