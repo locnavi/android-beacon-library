@@ -1,7 +1,7 @@
 package org.altbeacon.beacon
 
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import android.arch.lifecycle.MutableLiveData
+import android.arch.lifecycle.ViewModel
 
 class RegionViewModel: ViewModel() {
     val regionState: MutableLiveData<Int> by lazy {

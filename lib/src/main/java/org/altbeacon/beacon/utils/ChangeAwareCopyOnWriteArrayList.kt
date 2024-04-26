@@ -1,7 +1,7 @@
 package org.altbeacon.beacon.utils
 
 import android.os.Build
-import androidx.annotation.RequiresApi
+import android.support.annotation.RequiresApi
 import java.util.ArrayList
 import java.util.function.Predicate
 

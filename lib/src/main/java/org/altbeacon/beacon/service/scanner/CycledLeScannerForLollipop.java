@@ -15,8 +15,8 @@ import android.os.Build;
 import android.os.ParcelUuid;
 import android.os.PowerManager;
 import android.os.SystemClock;
-import androidx.annotation.MainThread;
-import androidx.annotation.WorkerThread;
+import android.support.annotation.MainThread;
+import android.support.annotation.WorkerThread;
 
 import org.altbeacon.beacon.BeaconManager;
 import org.altbeacon.beacon.logging.LogManager;

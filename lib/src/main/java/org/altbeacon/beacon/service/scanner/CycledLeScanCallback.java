@@ -1,7 +1,7 @@
 package org.altbeacon.beacon.service.scanner;
 
 import android.bluetooth.BluetoothDevice;
-import androidx.annotation.MainThread;
+import android.support.annotation.MainThread;
 
 /**
  * Android API agnostic Bluetooth scan callback wrapper.
