@@ -485,7 +485,7 @@ public class BeaconManager {
                                     LogManager.i(TAG, "successfully started foreground beacon scanning service.");
                                 }
                             }
-                            catch (ServiceStartNotAllowedException e) {
+                            catch (Exception e) {
                                 // This happens on Android 12+ if you try to start a service from the background without a
                                 // qualifying event
                                 LogManager.w(TAG, "Foreground service blocked by ServiceStartNotAllowedException.  Falling back to job scheduler");
