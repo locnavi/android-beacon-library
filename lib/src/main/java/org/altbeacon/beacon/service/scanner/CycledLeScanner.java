@@ -564,7 +564,7 @@ public abstract class CycledLeScanner {
     }
 
     private boolean checkLocationPermission() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && checkPermission(Manifest.permission.BLUETOOTH_SCAN)) {
+        if (Build.VERSION.SDK_INT >= 31 && checkPermission("android.permission.BLUETOOTH_SCAN")) {
             return true;
         }
 
